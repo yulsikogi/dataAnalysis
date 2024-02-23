@@ -2,8 +2,9 @@
 - neighbourhood_group 별 데이터를 시각화했습니다.
 
 ## 개요
-- 1. neighbourhood_group별 숙소 위치를 파악
-- 2. neighbourhood_group별 숙소 개수 및 평균 가격 파악
+#### 1. neighbourhood_group별 숙소 위치를 파악
+#### 2. neighbourhood_group별 숙소 개수 및 평균 가격 파악
+#### 3. 숙소 위치별 가격 파악
 
 ## neighbourhood_group별 숙소 위치 파악
 ![image](../public/images/neighbourhood_group_by_location.png)
@@ -19,6 +20,12 @@
 2. Brooklyn은 두 번째로 많은 숙소를 가지고 있지만, Manhattan에 비해서는 상대적으로 저렴한 평균 가격을 가지고 있습니다.
 3. 의외로 Staten Island는 숙소 개수가 적지만, 평균 가격은 3위를 차지하고 있습니다.
 
+## 숙소 위치별 가격 파악
+![image](../public/images/price_range.png)
+### 시각화를 통해서 알 수 있는 점
+1. 특정 지역에 밀집해 있다. => 이미지를 보면, 붉은 색 원안에 위치한 숙소들의 가격이 높다.
+2. Manhattan, Brooklyn, Queens 지역이 저 위치에 해당하며, 순서대로 많은 숙소의 개수를 가지고 있다.
+
 ## 결론
 - New York City에서 가장 숙소가 많은 곳은 Manhattan과 Brooklyn이다. 즉, 수요가 있기 때문에 그만큼 공급을 제공하는 것이고 이는 인기와도 연결이 된다고 할 수 있다.
-- 또한 특정 지역에 밀집해 있기 때문에, 밀집지역과 아닌 지역의 가격 및 인기를 비교하면 좋을 것 같다.
+- 또한 밀집된 지역은 상당히 높은 가격대를 형성한 것을 알 수 있다.
