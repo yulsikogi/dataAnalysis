@@ -22,9 +22,11 @@
 
 ## 숙소 위치별 가격 파악
 ![image](../public/images/price_range.png)
+![image](../public/images/google_newyork.png)
 ### 시각화를 통해서 알 수 있는 점
 1. 특정 지역에 밀집해 있다. => 이미지를 보면, 붉은 색 원안에 위치한 숙소들의 가격이 높다.
 2. Manhattan, Brooklyn, Queens 지역이 저 위치에 해당하며, 순서대로 많은 숙소의 개수를 가지고 있다.
+3. 밀집된 지역을 구글 맵으로 보면, 딱 떠오르는 랜드마크들이 위치해 있는 곳임을 알 수 있다.
 
 ## 결론
 - New York City에서 가장 숙소가 많은 곳은 Manhattan과 Brooklyn이다. 즉, 수요가 있기 때문에 그만큼 공급을 제공하는 것이고 이는 인기와도 연결이 된다고 할 수 있다.
