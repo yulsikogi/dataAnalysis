@@ -7,15 +7,25 @@
 ### 컬럼 - 설명
 1. Age: 나이 (정수형)
 2. Sex: 성별 ('M'은 남성, 'F'은 여성)
-3. ChestPainType: 가슴 통증의 유형 (문자열)
+3. ChestPainType: 가슴 통증의 유형 (문자열)  
+(1) TA: 전형적인 협심증  
+(2) ATA: 비정형 협심증  
+(3) NAP: 비진통증  
+(4) ASY: 무증상
 4. RestingBP: 휴식 시 혈압 (정수형)
 5. Cholesterol: 콜레스테롤 수치 (정수형)
 6. FastingBS: 공복 혈당 (0 또는 1; 1은 120 mg/dl 이상을 의미)
-7. RestingECG: 휴식 시 심전도 결과 (문자열)
+7. RestingECG: 휴식 시 심전도 결과 (문자열)  
+(1) Normal: Normal  
+(2) ST: ST-T파 이상(T파 반전 및/또는 ST 상승 또는 함몰 > 0.05mV)  
+(3) LVH: Estes 기준에 의한 좌심실 비대 가능성 또는 확실한 소견을 보임
 8. MaxHR: 최대 심박수 (정수형)
 9. ExerciseAngina: 운동 유발 협심증 (문자열; 'Y'는 예, 'N'은 아니오)
 10. Oldpeak: 운동에 의한 ST 변화 (실수형)
-11. ST_Slope: 최대 운동 ST 분절의 기울기 (문자열)
+11. ST_Slope: 최대 운동 ST 분절의 기울기 (문자열)  
+(1) Up: 상행  
+(2) Flat: 플랫  
+(3) Down: 하향 경사
 12. HeartDisease: 심장 질환의 존재 유무 (0 또는 1; 1은 심장 질환이 있음을 의미)
 
 ## 기본 통계
